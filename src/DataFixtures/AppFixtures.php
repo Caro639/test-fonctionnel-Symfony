@@ -13,11 +13,11 @@ class AppFixtures extends Fixture
     {
         // Utilisateur de test pour les tests fonctionnels
         $testUser = new User();
-        $testUser->setUserName('Caro639');
+        $testUser->setUserName('your_test_username');
         $testUser->setFullname('Caroline Test');
-        $testUser->setEmail('carolshine@hotmail.fr');
+        $testUser->setEmail('your email used in fixtures');
         $testUser->setAvatarUrl('https://github.com/avatar_test');
-        $testUser->setProfileHtmlUrl('https://github.com/Caro639');
+        $testUser->setProfileHtmlUrl('https://github.com/your_test_username');
         $testUser->setPassword('test');
         $testUser->setRoles(['ROLE_USER']);
         $manager->persist($testUser);
